@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="css/app.css" rel="stylesheet" crossorigin="anonymous">
 
     <!-- Favicons -->
 <!--    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">-->
@@ -43,124 +44,189 @@
 
     <!-- Custom styles for this template -->
     <link href="css/timer.css" rel="stylesheet">
+
+    <link href="//db.onlinewebfonts.com/c/f21923cb0f60b46d41a66875255790b3?family=NHaasGroteskDSPro-65Md" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <main>
-<!--    <div class="container">-->
+    <div class="container" style="background-color: #f9f9f9;">
 <!--        TIMER-->
-        <div class="row">
-            <div class="col">
+        <div class="row timer-row">
+            <div class="col-12 col-sm-4" style="text-align: right;">
                 Essa oferta acaba em:
             </div>
-            <div class="col">
+            <div class="col-12 col-sm-4">
                 <div id="timer"></div>
             </div>
-            <div class="col">
+            <div class="col-12 col-sm-4" style="text-align: left;">
                 Ou enquanto durarem os estoques
             </div>
         </div>
-<!--        HEADER-->
-        <div class="row">
-            <div class="col">
-                Essa oferta acaba em:
-            </div>
-            <div class="col">
-                <div id="timer"></div>
-            </div>
-        </div>
 <!--        LIVRO HEADER-->
-        <div class="row">
-            <div class="col">
+        <div class="row livro-header">
+            <div class="col-12 col-sm 6">
                 <div class="row">
-                    <div class="col">Não existe marketing sem uma história de amor.</div>
-                    <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    <div class="col h1-title">Não existe marketing<br>sem uma história de amor.</div>
+                </div>
+                <div class="row">
+                    <div class="col h1-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+                <div class="row">
                     <div class="col">
-                        <button class="btn btn-primary">COMPRE AGORA</button>
+                        <button class="h1-button">COMPRE AGORA</button>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <img src="images/livro-header.png">
-            </div>
+            <div class="col-1 col-sm-6"></div>
         </div>
 <!--        VIDEO-->
         <div class="row">
-            <div class="col">
-                <iframe src="https://player.vimeo.com/video/691105207?h=2c73f1c2f5" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <div class="col justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col video-col justify-content-center">
+                            <div class="video-embed ratio ratio-16x9 xembed-responsive xembed-responsive-16by9">
+                                    <iframe class="xembed-responsive-item" title="vimeo-player" src="https://player.vimeo.com/video/76979871?h=8272103f6e" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row video-h1">
+                        <div class="col">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </div>
+                    </div>
+                    <div class="row video-h2">
+                        <div class="col">
+                            Adipiscing at in tellus integer feugiat scelerisque varius morbi. Semper viverra nam libero justo. Vulputate enim nulla aliquet porttitor lacus luctus.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="video-button">COMPRE AGORA</button>
+                        </div>
+                    </div>
+                    <div class="row video-frete">
+                        <div class="col">
+                            Frete grátis para todo o Brasil
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 <!--        LIVRO 1-->
-        <div class="row">
-            <div class="col-6">
-                <img src="images/livro-01.png" class="img-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4">
+                <img class="img-fluid" src="images/livro-01.png">
             </div>
-            <div class="col-6">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
+            <div class="col-12 col-md-4">
+                <div class="livro1-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="livro1-texto">ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
+                <div class="livro1-texto">ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
             </div>
         </div>
 <!--        LIVRO 2-->
-        <div class="row">
-            <div class="col">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
+        <div class="row justify-content-center">
+            <div class="col-12 order-2 col-md-4 order-md-1">
+                <div class="livro2-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="livro2-texto">ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
+                <div class="livro2-texto">ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
             </div>
-            <div class="col">
-                <img src="images/livro-01.png">
+            <div class="col-12 order-1 col-md-4 order-md-2">
+                <img class="img-fluid" src="images/livro-01.png">
             </div>
         </div>
 <!--        BERNADETE-->
-        <div class="row">
-            <div class="col">
-                <img src="images/bernadete.png">
+        <div class="row justify-content-center px-5">
+            <div class="col-12 col-md-4">
+                <img class="img-fluid" src="images/bernadete.png">
             </div>
-            <div class="col">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
+            <div class="col-12 col-md-4 align-middle">
+                <div class="berna-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="berna-texto">ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
             </div>
         </div>
 <!--        GALERIA-->
-        <div class="row">
-            <div class="col">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4">
+                <div class="galeria-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="galeria-texto">ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
             </div>
-            <div class="col">
-                GALERIA
+            <div class="col-12 col-md-4">
+                <div class="row row-cols-2">
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                </div>
             </div>
         </div>
 <!--        TEXTO-->
-        <div class="row">
-            <div class="col">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8">
+                <div class="livro1-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="livro1-texto">ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
             </div>
         </div>
 <!--        SLIDES-->
-        <div class="row">
-            <div class="col">
-            </div>
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8"
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 <!--        PRECO-->
-        <div class="row">
-            <div class="col">
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <div>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8">
+                <div class="titulo-blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="texto-gray">ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</div>
 
             </div>
         </div>
 <!--        ACTION-->
-        <div class="row">
-            <div class="col">
-                <button class="btn btn-primary">COMPRE AGORA</button>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8">
+                <button class="botao-rosa">COMPRE AGORA</button>
             </div>
         </div>
 <!--        DEPOIMENTOS-->
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100">
@@ -202,8 +268,8 @@
             </div>
         </div>
 <!--        FAQ-->
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8">
                 <h3>Perguntas frequentes</h3>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
@@ -245,12 +311,12 @@
                 </div>
             </div>
         </div>
-<!--    </div>-->
+    </div>
 
 </main>
 <footer>
-    <div class="row">
-        <div class="col">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 align-content-center">
             <img src="images/logo-footer.png">
         </div>
     </div>

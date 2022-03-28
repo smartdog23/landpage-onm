@@ -1,27 +1,33 @@
 #timer {
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 100;
     color: white;
-    padding: 20px;
-    width: 700px;
+    /*padding: 20px;*/
+    width: 400px;
     color: white;
-
+    text-align: center;
 }
 
 #timer div {
     display: inline-block;
-    min-width: 90px;
-    padding: 15px;
-    background: #020b43;
-    border-radius: 10px;
-    border: 2px solid #030d52;
-    margin: 15px;
+    min-width: 30px;
+    /*padding: 15px;*/
+    background: #585858;
+    /*opacity: 40%;*/
+    /*border-radius: 10px;*/
+    /*border: 2px solid #030d52;*/
+    /*margin: 15px;*/
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 30px;
 }
 
 #timer div span {
     color: #ffffff;
     display: block;
-    margin-top: 15px;
-    font-size: .35em;
+    /*margin-top: 15px;*/
+    font-size: .65em;
     font-weight: 400;
+    text-align: center;
+    line-height: 20px;
 }

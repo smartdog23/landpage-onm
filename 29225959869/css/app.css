@@ -1,0 +1,169 @@
+@font-face {font-family: "NHaasGroteskDSPro-65Md"; src: url("//db.onlinewebfonts.com/t/f21923cb0f60b46d41a66875255790b3.eot"); src: url("//db.onlinewebfonts.com/t/f21923cb0f60b46d41a66875255790b3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f21923cb0f60b46d41a66875255790b3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f21923cb0f60b46d41a66875255790b3.woff") format("woff"), url("//db.onlinewebfonts.com/t/f21923cb0f60b46d41a66875255790b3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f21923cb0f60b46d41a66875255790b3.svg#NHaasGroteskDSPro-65Md") format("svg"); }
+
+
+.timer-row {
+    background: #585858;
+    /*opacity: 40%;*/
+    vertical-align: middle;
+    line-height: 50px;
+    color: #fff;
+}
+
+.livro-header {
+    background-image: url("/29225959869/images/livro-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 810px;
+    padding-left: 200px;
+    padding-top: 200px;
+
+}
+
+.h1-title {
+    color: #F8DEE9;
+    /*font-size: 2em;*/
+    /*font-family: 'NHaasGroteskDSPro-65Md';*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.h1-subtitle {
+    color: #eeeeee;
+}
+
+.h1-button {
+    position: absolute;
+    width: 265px;
+    height: 60px;
+    left: 205px;
+    top: 446px;
+
+    background: #DD7CAD;
+    border-radius: 2px;
+}
+
+.titulo-blue {
+    color: #1D288D;
+    font-size: 30px;
+    padding-bottom: 1em;
+
+}
+
+.texto-gray {
+    color: #484848;
+    font-size: 0.7em;
+    padding-bottom: 1em;
+}
+
+.botao-rosa {
+    /*position: absolute;*/
+    width: 265px;
+    height: 60px;
+    /*left: 205px;*/
+    /*top: 446px;*/
+
+    background: #DD7CAD;
+    border-radius: 2px;
+}
+
+.video-embed {
+    /*padding-top: 1em;*/
+    /*padding-bottom: 1em;*/
+    text-align: center;
+    max-width: 640px;
+}
+
+.video-col {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /*text-align: center;*/
+
+}
+
+
+
+.video-h1 {
+    color: #2A3392;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.video-h2 {
+    color: #9B9B9B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.video-button {
+    /*position: absolute;*/
+    width: 265px;
+    height: 60px;
+    /*left: 205px;*/
+    /*top: 446px;*/
+
+    background: #2B5AD3;
+    border-radius: 2px;
+}
+
+.video-frete {
+    color: #9B9B9B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+.livro1-header {
+    color: #1D288D;
+    font-size: 30px;
+    padding-bottom: 1em;
+
+}
+
+.livro1-texto {
+    color: #484848;
+    font-size: 0.7em;
+    padding-bottom: 1em;
+}
+
+.livro2-header {
+    color: #1D288D;
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+
+.livro2-texto {
+    color: #484848;
+    font-size: 16px;
+    padding-bottom: 1em;
+}
+
+.berna-header {
+    color: #DD7CAD;
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+
+.berna-texto {
+    color: #484848;
+    font-size: 16px;
+    padding-bottom: 1em;
+}
+
+.galeria-header {
+    color: #DD7CAD;
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+
+.galeria-texto {
+    color: #484848;
+    font-size: 16px;
+    padding-bottom: 1em;
+}
