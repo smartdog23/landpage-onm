@@ -159,7 +159,7 @@ $valorPor = 597;
                 </div>
                 <div class="row">
                     <div class="col py-2">
-                        <button class="h1-button">COMPRE AGORA</button>
+                        <button class="h1-button" data-bs-toggle="modal" data-bs-target="#modalFormulario">COMPRE AGORA</button>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@ $valorPor = 597;
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-8" style="text-align: center;">
-                            <button class="video-button">COMPRE AGORA</button>
+                            <button class="video-button" data-bs-toggle="modal" data-bs-target="#modalFormulario">COMPRE AGORA</button>
                         </div>
                     </div>
                     <div class="row video-frete mb-5">
@@ -293,7 +293,7 @@ $valorPor = 597;
 <!--        ACTION-->
         <div class="row justify-content-center">
             <div class="col-12 col-sm-8 py-5" style="text-align: center;">
-                <button class="botao-rosa">COMPRE AGORA</button>
+                <button class="botao-rosa" data-bs-toggle="modal" data-bs-target="#modalFormulario">COMPRE AGORA</button>
             </div>
         </div>
 <!--        DEPOIMENTOS-->
@@ -358,6 +358,28 @@ $valorPor = 597;
     </div>
 </footer>
 
+
+<!-- formulario -->
+<div class="modal fade" id="modalFormulario" tabindex="-1" aria-labelledby="modalFormularioLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="inputNome" name="nome" placeholder="Nome">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
+                        <div id="emailHelp" class="form-text">Entre com o seu melhor email</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-block" data-bs-dismiss="modal">COMPRAR</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
