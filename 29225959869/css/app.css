@@ -13,6 +13,7 @@
     background-image: url("/29225959869/images/livro-header.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 810px;
     padding-left: 200px;
     padding-top: 200px;
@@ -37,11 +38,11 @@
 }
 
 .h1-button {
-    position: absolute;
+    /*position: absolute;*/
     width: 265px;
     height: 60px;
-    left: 205px;
-    top: 446px;
+    /*left: 205px;*/
+    /*top: 446px;*/
 
     background: #DD7CAD;
     border-radius: 2px;
@@ -166,4 +167,27 @@
     color: #484848;
     font-size: 16px;
     padding-bottom: 1em;
+}
+
+.imagem-galeria {
+    background-color: #9B9B9B;
+
+}
+
+.valor-de {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #989898;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.valor-por {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: #1D288D;
+}
+
+.valor-por sup {
+    font-size: 0.4em;
 }
